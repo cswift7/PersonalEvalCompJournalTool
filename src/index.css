@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { color-scheme: dark; }
+body { margin: 0; }
+@media print { header { position: static !important; } button { display: none !important; } }
